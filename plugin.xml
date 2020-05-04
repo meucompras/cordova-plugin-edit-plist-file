@@ -44,6 +44,20 @@
             </array>
         </config-file>
         
+        <!-- background-geolocation -->
+        <config-file parent="NSLocationAlwaysAndWhenInUseUsageDescription" target="*-Info.plist">
+            <string>O app utiliza ratreamento de localização em segundo plano para gravar a atividade, mesmo que o app não esteja visível na tela. Sempre é necessário usar o rastreamento de localização em segundo plano (Always is necessary).</string>
+        </config-file>
+        <config-file parent="NSLocationAlwaysUsageDescription" target="*-Info.plist">
+            <string>O rastreamento de localização em segundo plano é obrigatório.</string>
+        </config-file>
+        <config-file parent="NSLocationWhenInUseUsageDescription" target="*-Info.plist">
+            <string>O rastreamento de localização em segundo plano é obrigatório.</string>
+        </config-file>
+        <config-file parent="NSMotionUsageDescription" target="*-Info.plist">
+            <string>O uso do acelerômetro aumenta a eficiência da bateria ao alternar de maneira inteligente o rastreamento de localização somente quando o dispositivo é detectado como em movimento.</string>
+        </config-file>
+        <!-- /background-geolocation -->
         
         
     </platform>
