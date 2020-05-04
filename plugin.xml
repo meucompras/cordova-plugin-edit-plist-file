@@ -60,6 +60,18 @@
         <!-- /background-geolocation -->
         
         
+        <!-- camera -->
+        <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
+            <string>A câmera é utilizada para registrar imagens dos seus pedais.</string>
+        </config-file>
+        <config-file parent="NSPhotoLibraryAddUsageDescription" target="*-Info.plist">
+            <string>O acesso à galeria é utilizado para adicionar imagens dos pedais.</string>
+        </config-file>
+        <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
+            <string>O acesso à galeria de fotos é utilizado para adicionar e carregar imagens dos pedais.</string>
+        </config-file>
+        <!-- /camera -->
+        
     </platform>
     
 </plugin>
