@@ -44,6 +44,17 @@
             </array>
         </config-file>
         
+        <!-- camera -->
+        <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
+            <string>A câmera é utilizada para escanear código de barras para realizar pesquisa de produtos.</string>
+        </config-file>
+        <!-- /camera -->
+        
+        <!-- microphone -->
+        <config-file parent="NSMicrophoneUsageDescription" target="*-Info.plist">
+            <string>O microfone é utilizado para realizar pesquisa de produtos por voz.</string>
+        </config-file>
+        <!-- /microphone -->
         
         
     </platform>
